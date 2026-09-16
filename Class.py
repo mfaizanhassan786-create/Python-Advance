@@ -73,51 +73,51 @@
 
 ## Practice no. 01
 
-class Student:
-    def __init__(self, name, age, grade):
-        self.name = name
-        self.age = age       # This will now receive an integer number
-        self.grade = grade
+# class Student:
+#     def __init__(self, name, age, grade):
+#         self.name = name
+#         self.age = age       # This will now receive an integer number
+#         self.grade = grade
 
     
-    # def get_name(self):
-    #     print(self.name)
+#     # def get_name(self):
+#     #     print(self.name)
     
-    # def get_age(self):
-    #     print(self.age)
+#     # def get_age(self):
+#     #     print(self.age)
     
-    # def get_grade(self):
-    #     print(self.grade)
+#     # def get_grade(self):
+#     #     print(self.grade)
     
-    def display(self):
-        print(f"Name: {self.name}")
-        print(f"Age: {self.age}")
-        print(f"Grade: {self.grade}")
+#     def display(self):
+#         print(f"Name: {self.name}")
+#         print(f"Age: {self.age}")
+#         print(f"Grade: {self.grade}")
 
-    def is_eligible(self):
-        # Make sure this checks self.age, not self.grade!
-        if self.age >= 18:
-            print(f"{self.name} is eligible for voting")
-        else:
-            print(f"{self.name} is not eligible for voting")
+#     def is_eligible(self):
+#         # Make sure this checks self.age, not self.grade!
+#         if self.age >= 18:
+#             print(f"{self.name} is eligible for voting")
+#         else:
+#             print(f"{self.name} is not eligible for voting")
 
-# Creating Objects (Notice: NO quotes around the age numbers!)
-student1 = Student("Faizan", 20, "A")
-student2 = Student("Bilal", 15, "B")
-student3 = Student("Ali", 25, "C")
+# # Creating Objects (Notice: NO quotes around the age numbers!)
+# student1 = Student("Faizan", 20, "A")
+# student2 = Student("Bilal", 15, "B")
+# student3 = Student("Ali", 25, "C")
 
-# Accessing attributes (Notice: we use comma ',' instead of '+' to print numbers)
-print("Name : " + student1.name)
-print("Age :", student1.age)
-print("Grade : " + student1.grade)
+# # Accessing attributes (Notice: we use comma ',' instead of '+' to print numbers)
+# print("Name : " + student1.name)
+# print("Age :", student1.age)
+# print("Grade : " + student1.grade)
 
-# Calling Methods
-print("\n")
-student1.display()
-student2.display()
-student3.display()
+# # Calling Methods
+# print("\n")
+# student1.display()
+# student2.display()
+# student3.display()
 
-print("\n--- Voting Eligibility ---")
-student1.is_eligible()
-student2.is_eligible()
-student3.is_eligible()
+# print("\n--- Voting Eligibility ---")
+# student1.is_eligible()
+# student2.is_eligible()
+# student3.is_eligible()

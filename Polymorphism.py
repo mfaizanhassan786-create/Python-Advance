@@ -15,7 +15,7 @@
 #     pet.speak()
 
 
-# Another Example:
+# # Another Example:
 
 # class vehicle:
 #     def move(self):
@@ -33,15 +33,15 @@
 # boat1 = boat()
 
 
-# Another Example:
+# # Another Example:
 
-class Calculator:
-    def add(self, a, b=0, c=0):
-        return a+b+c
+# class Calculator:
+#     def add(self, a, b=0, c=0):
+#         return a+b+c
 
-cal = Calculator()
-print(cal.add(5))
-print(cal.add(10,20))
-print(cal.add(10,20,30))
+# cal = Calculator()
+# print(cal.add(5))
+# print(cal.add(10,20))
+# print(cal.add(10,20,30))
 
 

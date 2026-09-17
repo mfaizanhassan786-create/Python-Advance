@@ -21,25 +21,25 @@
 # print("Student Grade:", student1.get_grade())
 
 #Another Example:
+#Example of the Getters and Setters.
+class Student:
+    @property
+    def grade(self):
+        return self.__grade
 
-# class Student:
-#     @property
-#     def grade(self):
-#         return self.__grade
+    def __init__(self, age, name, grade, course):
+        # self.age = age
+        # self.name = name
+        self.__grade = grade # Private Attribute
+        # self.course = course
+    def get_grade(self):
+        return self.__grade
+    def set_grade(self, grade):
+        if 0 <= grade <= 100:
+            self.__grade = grade
+        else:
+            print("Invalid grade")
 
-#     def __init__(self, age, name, grade, course):
-#         # self.age = age
-#         # self.name = name
-#         self.__grade = grade # Private Attribute
-#         # self.course = course
-#     def get_grade(self):
-#         return self.__grade
-#     def set_grade(self, grade):
-#         if 0 <= grade <= 100:
-#             self.__grade = grade
-#         else:
-#             print("Invalid grade")
-
-# student1 = Student(20, "Faizan", "A", "Computer Science")
-# student1.set_grade(90)
-# print(student1.get_grade())
+student1 = Student(20, "Faizan", "A", "Computer Science")
+student1.set_grade(90)
+print(student1.get_grade())

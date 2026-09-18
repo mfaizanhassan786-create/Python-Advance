@@ -10,8 +10,13 @@
 
 ## writing Formating
 
-file = open("demo.txt", "w")
+# file = open("demo.txt", "w")
 
-file.write("Hello, this is a new line")
+# file.write("Hello, this is a new line")
 
-file.close()
+# file.close()
+
+
+file1 = open("demo.txt", "w")
+file1.write("Hello, this is a new line")
+file1.close()

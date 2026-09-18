@@ -17,6 +17,6 @@
 # file.close()
 
 
-file1 = open("demo.txt", "w")
-file1.write("Hello, this is a new line and I am writing this line using w")
+file1 = open("demo.txt", "a")
+file1.write("\nHello, this is second new line and I am writing this line using a")
 file1.close()

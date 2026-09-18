@@ -1,2 +1,1 @@
-Hello, this is a new line and I am writing this line using w
-Hello, this is second new line and I am writing this line using a
+Hello, this is a new line

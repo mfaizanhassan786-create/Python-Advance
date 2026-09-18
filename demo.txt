@@ -1,13 +1,1 @@
-Hello, this is a new line
-
-ID | Name | Age | City | Department | Semester | Marks | Attendance
-1 | Ali Khan | 20 | Faisalabad | Computer Science | 2 | 85 | 92
-2 | Ahmed Raza | 21 | Lahore | Artificial Intelligence | 4 | 78 | 88
-3 | Usman Tariq | 19 | Islamabad | Data Science | 2 | 91 | 95
-4 | Hassan Ahmed | 22 | Karachi | Software Engineering | 6 | 68 | 75
-5 | Hamza Ali | 20 | Faisalabad | Computer Science | 3 | 78 | 84
-6 | Bilal Shah | 23 | Lahore | Artificial Intelligence | 7 | 88 | 91
-7 | Saad Malik | 19 | Multan | Data Science | 1 | 64 | 70
-8 | Zain Abbas | 21 | Islamabad | Computer Science | 4 | 95 | 97
-9 | Talha Iqbal | 22 | Faisalabad | Software Engineering | 5 | 74 | 81
-10 | Danish Ahmed | 20 | Rawalpindi | Artificial Intelligence | 3 | 82 | 89
+Hello, this is a new line and I am writing this line using w

@@ -18,5 +18,5 @@
 
 
 file1 = open("demo.txt", "w")
-file1.write("Hello, this is a new line")
+file1.write("Hello, this is a new line and I am writing this line using w")
 file1.close()

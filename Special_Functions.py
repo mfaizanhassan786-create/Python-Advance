@@ -61,6 +61,8 @@
 # print((p1 + p2).x, (p1 + p2).y)
 
 
+#Comparisons Method:
+#Aother Example:
 
 class Book:
     def __init__(self,title,author,pages):

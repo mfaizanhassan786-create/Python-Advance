@@ -59,9 +59,9 @@
 
 ## pathlib method:
 
-from pathlib import Path
+# from pathlib import Path
 
-path = Path("demo.txt")
+# path = Path("demo.txt")
 
-path.write_text("Hello, this is a new line")
+# path.write_text("Hello, this is a new line")
  

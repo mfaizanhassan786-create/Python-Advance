@@ -17,7 +17,6 @@
 # except Exception as e:
 #     print(f"An unexpected error occurrred : {e}")
 
-
 # try:
 #     print("Running code...")
 # except:
@@ -26,9 +25,11 @@
 #     print("Code is running successfully")
 # finally:
 #     print("Code is terminated")
+
+
     
+## Another Eamples:
 
-
-age = -3
-if age < 0:
-    raise ValueError("Age cannot be negative")
+# age = -3
+# if age < 0:
+#     raise ValueError("Age cannot be negative")

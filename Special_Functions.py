@@ -59,3 +59,43 @@
 # p2 = Point(3, 4)
 
 # print((p1 + p2).x, (p1 + p2).y)
+
+
+
+class Book:
+    def __init__(self,title,author,pages):
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def __str__(self):
+        return f"Title: {self.title}\nAuthor: {self.author}\nPages: {self.pages}"
+
+    def __lt__(self,other):
+        if not isinstance(other, Book):
+            return TypeError("Operand must be a Book")
+        return self.pages < other.pages
+
+    def __le__(self,other):
+        if not isinstance(other, Book):
+            return TypeError("Operand must be a Book")
+        return self.pages <= other.pages
+
+    def __gt__(self,other):
+        if not isinstance(other, Book):
+            return TypeError("Operand must be a Book")
+        return self.pages > other.pages
+
+    def __ge__(self,other):
+        if not isinstance(other, Book):
+            return TypeError("Operand must be a Book")
+        return self.pages >= other.pages
+
+
+b1 = Book("Python", "Faizan", 100)
+b2 = Book("Java", "Faizan", 200)
+
+print(b1 < b2)
+print(b1 <= b2)
+print(b1 > b2)
+print(b1 >= b2)
